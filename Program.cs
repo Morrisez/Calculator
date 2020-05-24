@@ -5,12 +5,12 @@ namespace Calculator
     class Program
     {
         static InputConverter inputConverter;
-        static Calculator calculator;
+        static CalculatorEngine calculator;
         
         static void Main(string[] args)
         {
             inputConverter = new InputConverter();
-            calculator = new Calculator();
+            calculator = new CalculatorEngine();
 
             GUI();
         }

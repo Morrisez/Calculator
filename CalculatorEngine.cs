@@ -4,14 +4,14 @@ using System.Text;
 
 namespace Calculator
 {
-    public class Calculator
+    public class CalculatorEngine
     {
         public double Add(double firstNum, double secondNum) => firstNum + secondNum;
         public double Subtract(double firstNum, double secondNum) => firstNum - secondNum;
         public double Multiply(double firstNum, double secondNum) => firstNum * secondNum;
         public double Divide(double firstNum, double secondNum) => firstNum / secondNum;
 
-        internal double Calculate(string operand, double firstNum, double secondNum)
+        public double Calculate(string operand, double firstNum, double secondNum)
         {
             return operand.ToLower() switch
             {
