@@ -2,20 +2,20 @@
 
 namespace Calculator
 {
-    class Program
+    public class Program
     {
         static InputConverter inputConverter;
-        static CalculatorEngine calculator;
+        static Calculator calculator;
         
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             inputConverter = new InputConverter();
-            calculator = new CalculatorEngine();
+            calculator = new Calculator();
 
             GUI();
         }
 
-        static void GUI()
+        public static void GUI()
         {
             try
             {

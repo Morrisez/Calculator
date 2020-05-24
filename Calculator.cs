@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Calculator
 {
-    public class CalculatorEngine
+    public class Calculator
     {
         public double Add(double firstNum, double secondNum) => firstNum + secondNum;
         public double Subtract(double firstNum, double secondNum) => firstNum - secondNum;
